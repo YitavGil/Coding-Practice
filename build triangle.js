@@ -1,6 +1,6 @@
 function makeLine(length) {
-    var line = "";
-    for (var j = 1; j <= length; j++) {
+    let line = "";
+    for (let j = 1; j <= length; j++) {
         line += "* ";
     }
     return line + "\n";
@@ -10,7 +10,7 @@ function makeLine(length) {
 
 
 function buildTriangle(length) {
-    var triangle = "";
+    let triangle = "";
     for (let i = 1; i <= length; i++) {
     triangle += makeLine(i);
 }
